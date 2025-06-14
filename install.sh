@@ -39,8 +39,8 @@ else
     echo -e "\e[32mpython3 is installed.\e[0m"
 fi
 
-SCRIPT_NAME="scanner.py"
-SCRIPT_URL="https://raw.githubusercontent.com/yourusername/yourrepo/main/scanner.py"
+SCRIPT_NAME="pixelscanner.py"
+SCRIPT_URL="https://github.com/amirebog/pixelscanner/blob/main/pixelscanner.py"
 
 download_with_progress "$SCRIPT_URL" "$SCRIPT_NAME"
 
